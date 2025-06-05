@@ -7,5 +7,16 @@
 <body>
   <h1>¡Hola, mundo!</h1>
   <p>Esta es mi página publicada con GitHub Pages.</p>
+  <button id="counterButton">Haz clic</button>
+  <p id="clickCount">0</p>
+  <script>
+    const button = document.getElementById('counterButton');
+    const countDisplay = document.getElementById('clickCount');
+    let count = 0;
+    button.addEventListener('click', () => {
+      count += 1;
+      countDisplay.textContent = count;
+    });
+  </script>
 </body>
 </html>
