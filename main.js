@@ -1,6 +1,6 @@
 // Configura tu proyecto de Supabase
-const supabaseUrl = 'https://YOUR-PROJECT.supabase.co'; // Reemplaza con tu URL
-const supabaseKey = 'YOUR-ANON-KEY'; // Reemplaza con tu anon key
+const supabaseUrl = 'https://cglbtmtfbyrocnjxgsnl.supabase.co';
+const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNnbGJ0bXRmYnlyb2Nuanhnc25sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxMzk1ODEsImV4cCI6MjA2NDcxNTU4MX0.OJer4k012_lV8B8jg1SnHNBzKtEKgUgFDryidAF5GDc';
 const supabase = supabase.createClient(supabaseUrl, supabaseKey);
 
 // Registro de usuario
