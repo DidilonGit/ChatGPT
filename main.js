@@ -3,7 +3,7 @@ const supabaseUrl = 'https://cglbtmtfbyrocnjxgsnl.supabase.co';
 const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNnbGJ0bXRmYnlyb2Nuanhnc25sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkxMzk1ODEsImV4cCI6MjA2NDcxNTU4MX0.OJer4k012_lV8B8jg1SnHNBzKtEKgUgFDryidAF5GDc';
 const supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
 
-// Registro de usuario
+// Registro de usuario  
 const signupForm = document.getElementById('signup-form');
 signupForm.addEventListener('submit', async (e) => {
   e.preventDefault();
