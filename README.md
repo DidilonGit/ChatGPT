@@ -1,2 +1,2 @@
 # ChatGPT
-Para pruebas con ChatPGT
+Para pruebas con ChatGPT
